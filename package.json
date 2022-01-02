@@ -4,7 +4,11 @@
   "description": "ethereum network scanner",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:up": "docker-compose -f docker/docker-compose.db.yaml up",
+    "db:down": "docker-compose -f docker/docker-compose.db.yaml down",
+    "agent:up": "docker-compose -f docker/docker-compose.agent.yaml up",
+    "agent:down": "docker-compose -f docker/docker-compose.agent.yaml down"
   },
   "repository": {
     "type": "git",
