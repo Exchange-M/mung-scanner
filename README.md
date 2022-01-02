@@ -4,7 +4,7 @@
 
 * angular
 * nestjs
-* socket.io
+* socketio
 * web3
 * swagger
 
@@ -17,6 +17,8 @@
 ### architecture
 
 ![](documents/architecture/v1.png)
+
+MQ는 일단 optional 한 형태로 진행한다.
 
 # useage
 
@@ -35,6 +37,13 @@ $ npm run db:down
 ```
 
 ### agent
+
+agent 서버는 블록체인의 정보를 주기적으로 가져온다
+
+- 소켓서버
+- 데이터베이스 업데이트(추후 MQ로 변경하여 MQ 컨슈머가 데이터베이스 업데이트 한다.)
+
+---
 
 * .env
 
