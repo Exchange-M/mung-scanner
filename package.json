@@ -1,0 +1,20 @@
+{
+  "name": "mung-scanner",
+  "version": "1.0.0",
+  "description": "ethereum network scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exchange-M/mung-scanner.git"
+  },
+  "keywords": ["blockchain", "scanner", "mung", "ethereum", "tracking", "track", "scanner"],
+  "author": "pjt3591oo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Exchange-M/mung-scanner/issues"
+  },
+  "homepage": "https://github.com/Exchange-M/mung-scanner#readme"
+}
